@@ -63,7 +63,7 @@ header > h3 {
     border-radius: 10px;
     box-sizing: border-box;
     color: white;
-    transition: 2s;
+    transition: 1s;
     padding: 20px;
 
     display: flex;
@@ -74,6 +74,36 @@ header > h3 {
 .card:hover .cardBody {
     bottom: 0;
 }
+
+.moreinfo {
+    margin: 0;
+    padding: .5rem;
+    background-color: lightcoral;
+    border-radius: 10px;
+    width: fit-content;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.moreinfo:hover > .line {
+    width: 100%;
+}
+
+.line {
+    background-color: black;
+    border-bottom: 1px solid black;
+    width: 0%;
+    transition: 1s;
+}
+
+
 
 img {
     width: 100%;
