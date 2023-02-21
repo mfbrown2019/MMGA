@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #444;
+}
+
+header {
+    padding: 2rem;
+}
+
+header > h1 {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+}
+
+header > h3 {
+    color: white;
+    text-align: center;
+}
+
+.searchContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContent {
+    width: fit-content;
+    display: inline;
+    
+}
+
+.mainContent > input {
+    padding: .2rem .5rem;
+}
+
+.reviewCards {
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+}
+
+.card {
+    height: 400px;
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cardBody {
+    width: 100%;
+    height: 75%;
+    bottom: -100%;
+    position: absolute;
+    background: rgba(10, 10, 10, 70%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    transition: 2s;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.card:hover .cardBody {
+    bottom: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
