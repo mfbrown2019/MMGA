@@ -1,0 +1,37 @@
+{
+    "movies": {
+        "bullet train": {
+            "CoreReviews": [
+                {
+                    "Name": "Matt",
+                    "Rating": "",
+                    "Why": ""
+                },
+                {
+                    "Name": "Nick",
+                    "Rating": "",
+                    "Why": ""
+                },
+                {
+                    "Name": "Brad",
+                    "Rating": "",
+                    "Why": ""
+                }
+            ],
+            "description": "",
+            "img": "imgaes/bullettrain.jpg",
+            "videos": [""],
+            "cast": [""],
+            "crew": [""],
+            "Studio": "",
+            "userReviews": [
+                {
+                    "Name": "",
+                    "Rating": "",
+                    "Why": ""
+                }
+            ]
+        }
+    }
+    
+}
