@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: #444;
+    color: white;
+}
+
+
+header {
+    padding: 2rem;
+}
+
+header > h1 {
+    color: white;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.movieTitle {
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+}
+
+
+.mainTwo {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3;
+    grid-template-areas: "trailer trailer info1 info2"
+                        "matt nick brad sherm"
+                        "public public public public";
+    gap: 1rem;
+}
+
+.trailer {
+    grid-area: trailer;
+}
+.trailer > iframe {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+.info1 {
+    grid-area: info1;
+}
+.info1 > p {
+    margin-top: 10px;
+}
+
+.info2 {
+    grid-area: info2;
+}
+.ratingTitle {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+}
+
+.rating {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px  red;
+}
+
+.userrating {
+    font-size: 3rem;
+    text-shadow: 2px 2px 5px  blue;
+}
+
+.matt {
+    grid-area: matt;
+}
+
+.nick {
+    grid-area: nick;
+}
+
+.brad {
+    grid-area: brad;
+}
+
+.sherm {
+    grid-area: sherm;
+}
+
+.name {
+    text-align: center;
+}
+
+.reviews {
+    grid-area: public;
+}
+
+.box-fitting {
+    color: black;
+    border-radius: 20px;
+    height: 50vh;
+    width: 100%;
+    font-size: 1.2rem;
+    background-color: antiquewhite;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+.box-fitting p {
+    margin-top: 10px;
+}

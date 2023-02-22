@@ -1,37 +1,80 @@
-{
-    "movies": {
-        "bullet-train": {
-            "coreReviews": [
-                {
-                    "name": "Matt",
-                    "rating": "",
-                    "why": ""
-                },
-                {
-                    "name": "Nick",
-                    "rating": "",
-                    "why": ""
-                },
-                {
-                    "name": "Brad",
-                    "rating": "",
-                    "why": ""
-                }
-            ],
-            "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common. Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails.",
-            "img": "imgaes/bullettrain.jpg",
-            "videos": [""],
-            "cast": [""],
-            "crew": [""],
-            "studio": "",
-            "user-reviews": [
-                {
-                    "name": "",
-                    "rating": "",
-                    "why": ""
-                }
-            ]
-        }
-    }
-    
-}
+[
+    {
+        "title": "Bullet Train",
+        "coreReviews": {
+            "matt" :{
+                "rating": 6.2,
+                "why": ""
+            },
+            "nick": {
+                "rating": -1,
+                "why": ""
+            },
+            "brad": {
+                "rating": -1,
+                "why": ""
+            },
+            "sherm": {
+                "rating": -1,
+                "why": ""
+            }
+        },
+        "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common. Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails.",
+        "img": "images/bullettrain.jpg",
+        "videos": [""],
+        "cast": [""],
+        "page": "pages/revengeofthesith.html",
+        "crew": [""],
+        "studio": "",
+        "duration": "",
+        "rated": "",
+        "release-date": "",
+        "genre": "",
+        "userReviews": [
+            {
+                "name": "",
+                "rating": "",
+                "why": ""
+            }
+        ]
+    },
+    {
+        "title": "Revenge of the Sith",
+        "coreReviews": {
+            "matt" :{
+                "rating": -1,
+                "why": ""
+            },
+            "nick": {
+                "rating": -1,
+                "why": ""
+            },
+            "brad": {
+                "rating": -1,
+                "why": ""
+            },
+            "sherm": {
+                "rating": -1,
+                "why": ""
+            }
+        },
+        "description": "Clone Wars rage across the galaxy. A sinister Sith Lord seizes control of the Republic and corrupts Anakin Skywalker to be his dark apprentice, Darth Vader. Now, in an epic lightsaber duel, Jedi Obi-Wan Kenobi must confront his fallen friend.",
+        "img": "images/revengeofthesith.jpg",
+        "videos": ["NkWgoPRT2Cs"],
+        "cast": ["Ewan McGregor", "Natalie Portman", "Hayden Christensen", "Ian McDiarmid", "Frank Oz", "Jimmy Smits"],
+        "crew": [""],
+        "studio": "",
+        "page": "pages/revengeofthesith.html",
+        "duration": "2h 21m",
+        "rated": "PG-13",
+        "release-date": "2005",
+        "genre": "Science Fiction, Action-Adventure",
+        "userReviews": [
+            {
+                "name": "",
+                "rating": 0,
+                "why": ""
+            }
+        ]
+    }   
+]
