@@ -3,7 +3,7 @@
         "title": "Bullet Train",
         "coreReviews": {
             "matt" :{
-                "rating": 6.2,
+                "rating": 6.5,
                 "why": ""
             },
             "nick": {
@@ -23,7 +23,7 @@
         "img": "images/bullettrain.jpg",
         "videos": [""],
         "cast": [""],
-        "page": "pages/revengeofthesith.html",
+        "page": "pages/bullettrain.html",
         "crew": [""],
         "studio": "",
         "duration": "",
@@ -33,7 +33,7 @@
         "userReviews": [
             {
                 "name": "",
-                "rating": "",
+                "rating": -1,
                 "why": ""
             }
         ]
@@ -72,7 +72,22 @@
         "userReviews": [
             {
                 "name": "",
-                "rating": 0,
+                "rating": 5,
+                "why": ""
+            },
+            {
+                "name": "",
+                "rating": 3,
+                "why": ""
+            },
+            {
+                "name": "",
+                "rating": 9,
+                "why": ""
+            },
+            {
+                "name": "",
+                "rating": 7.2,
                 "why": ""
             }
         ]
