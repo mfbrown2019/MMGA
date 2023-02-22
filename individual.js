@@ -109,7 +109,7 @@ fetch("../movies.json")
     nick = document.querySelector("#nick")
     nickOut = ""
     nickOut += ` 
-        <h3 class="name rating">nick</h3>
+        <h3 class="name rating">Nick</h3>
         <p>${product["coreReviews"]["nick"]["why"]}</p>
     `
     nick.innerHTML = nickOut ;
@@ -117,7 +117,7 @@ fetch("../movies.json")
     brad = document.querySelector("#brad")
     bradOut = ""
     bradOut += ` 
-        <h3 class="name rating">brad</h3>
+        <h3 class="name rating">Brad</h3>
         <p>${product["coreReviews"]["brad"]["why"]}</p>
     `
     brad.innerHTML = bradOut ;
@@ -125,7 +125,7 @@ fetch("../movies.json")
     sherm = document.querySelector("#sherm")
     shermOut = ""
     shermOut += ` 
-        <h3 class="name rating">sherm</h3>
+        <h3 class="name rating">Sherm</h3>
         <p>${product["coreReviews"]["sherm"]["why"]}</p>
     `
     sherm.innerHTML = shermOut ;
