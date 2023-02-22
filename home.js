@@ -5,11 +5,15 @@ fetch("movies.json")
     let placeholder = document.querySelector("#movieCards");
     let out = "";
     let i = 0
-    for (let product of products){
-        corefour = products[i]['coreReviews'];
-        console.log(products);
+    for (let product in products){
+        // console.log(products[product]);
+        obj = products[product];
+
+        corefour = obj['coreReviews'];
+        console.log(corefour);
         corefourscore = 0;
         coreReviewed = 0;
+
         if (corefour['matt']['rating'] != -1) {
             corefourscore = corefourscore + corefour['matt']['rating'];
             coreReviewed = coreReviewed + 1;
@@ -36,8 +40,9 @@ fetch("movies.json")
         }
 
         userRating = 0;
-        public = products[i]['userReviews'];
+        public = obj['userReviews'];
         console.log(public)
+
         for (let pub of public){
             console.log(pub)
             userRating = userRating + pub['rating'];
@@ -47,19 +52,15 @@ fetch("movies.json")
         } else {
             userRating = (userRating / public.length).toFixed(1);
         }
-       
 
         out += `
         <div class="card">
-            <img src="${product.img}">
+            <img src="${obj["img"]}">
             <div class="cardBody backgroundInfo">
-                <h1>${product.title}</h1>
-                <p>${product.description}</p>
+                <h1>${obj["title"]}</h1>
+                <p>${obj["description"]}</p>
                 <div class="moreinfocenter">
-                    <div class="moreinfo">
-                        <a href="${product.page}">More Information</a>
-                        <div class="line"></div>
-                    </div>
+                    <a href="${obj.page}">More Information</a>
                 </div>
             </div>
             <div class="rating backgroundInfo">

@@ -125,37 +125,22 @@ header > h3 {
     justify-content: center;
 }
 
-.moreinfo {
-
-    margin: 0;
-    padding: .5rem;
-    background-color: lightcoral;
-    border-radius: 10px;
-    width: fit-content;
-    text-decoration: none;
-    
-}
-
 a {
     color: black;
-}
-
-a:link {
+    margin: 0;
+    padding: .5rem;
+    transition: .5s;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: white;
+    border: 2px solid black;
     text-decoration: none;
 }
 
-.moreinfo:hover > .line {
-    width: 100%;
+a:hover {
+    background-color: lightcoral;
+    /* cursor: grab; */
 }
-
-.line {
-    background-color: black;
-    border-bottom: 1px solid black;
-    width: 0%;
-    transition: 1s;
-}
-
-
 
 img {
     width: 100%;

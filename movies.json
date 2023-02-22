@@ -1,8 +1,8 @@
-[
-    {
+{
+    "bullettrain" : {
         "title": "Bullet Train",
         "coreReviews": {
-            "matt" :{
+            "matt" : {
                 "rating": 6.5,
                 "why": ""
             },
@@ -21,15 +21,15 @@
         },
         "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common. Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails.",
         "img": "images/bullettrain.jpg",
-        "videos": [""],
-        "cast": [""],
+        "videos": ["0IOsk2Vlc4o"],
+        "cast": ["Brad Pitt", "Joey King", "Aaron Taylor-Johnson", "Ryan Reynolds"],
         "page": "pages/bullettrain.html",
         "crew": [""],
         "studio": "",
-        "duration": "",
-        "rated": "",
-        "release-date": "",
-        "genre": "",
+        "duration": "2h 7m",
+        "rated": "R",
+        "release-date": "2022",
+        "genre": "Action, Comedy, Thriller",
         "userReviews": [
             {
                 "name": "",
@@ -38,24 +38,24 @@
             }
         ]
     },
-    {
+    "revengeofthesith": {
         "title": "Revenge of the Sith",
         "coreReviews": {
-            "matt" :{
+            "matt" : {
                 "rating": -1,
-                "why": ""
+                "why": "I HAVE NO IDEA"
             },
             "nick": {
                 "rating": -1,
-                "why": ""
+                "why": "Does"
             },
             "brad": {
                 "rating": -1,
-                "why": ""
+                "why": "Clone Wars rage across the galaxy. A sinister Sith Lord seizes control of the Republic and corrupts Anakin Skywalker to be his dark apprentice, Darth Vader. Now, in an epic lightsaber duel, Jedi Obi-Wan Kenobi must confront his fallen friend.Clone Wars rage across the galaxy. A sinister Sith Lord seizes control of the Republic and corrupts Anakin Skywalker to be his dark apprentice, Darth Vader. Now, in an epic lightsaber duel, Jedi Obi-Wan Kenobi must confront his fallen friend."
             },
             "sherm": {
                 "rating": -1,
-                "why": ""
+                "why": "Work"
             }
         },
         "description": "Clone Wars rage across the galaxy. A sinister Sith Lord seizes control of the Republic and corrupts Anakin Skywalker to be his dark apprentice, Darth Vader. Now, in an epic lightsaber duel, Jedi Obi-Wan Kenobi must confront his fallen friend.",
@@ -91,5 +91,44 @@
                 "why": ""
             }
         ]
-    }   
-]
+    },
+    "anewhope" : {
+        "title": "A New Hope",
+        "coreReviews": {
+            "matt" : {
+                "rating": 6.1,
+                "why": ""
+            },
+            "nick": {
+                "rating": -1,
+                "why": ""
+            },
+            "brad": {
+                "rating": -1,
+                "why": ""
+            },
+            "sherm": {
+                "rating": -1,
+                "why": ""
+            }
+        },
+        "description": "Young farm boy Luke Skywalker is thrust into a galaxy of adventure when he intercepts a distress call from the captive Princess Leia. The event launches him on a daring mission to rescue her from the clutches of Darth Vader and the evil Empire.",
+        "img": "images/anewhope.jpg",
+        "videos": ["vZ734NWnAHA"],
+        "cast": ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Peter Cushing", "Alec Guinness"],
+        "page": "pages/anewhope.html",
+        "crew": [""],
+        "studio": "",
+        "duration": "2h 5m",
+        "rated": "PG",
+        "release-date": "1977",
+        "genre": "Science Fiction, Action-Adventure",
+        "userReviews": [
+            {
+                "name": "",
+                "rating": -1,
+                "why": ""
+            }
+        ]
+    }
+}
