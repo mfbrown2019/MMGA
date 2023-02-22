@@ -60,6 +60,10 @@ header > h3 {
     /* bottom: -100%; */
     top: 0;
     left: -50%;
+
+}
+
+.backgroundInfo {
     position: absolute;
     background: rgba(10, 10, 10, 70%);
     backdrop-filter: blur(5px);
@@ -71,10 +75,8 @@ header > h3 {
     text-align: center;
     display: flex;
     flex-direction: column;
-    /* z-index: 5; */
     justify-content: space-around;
 }
-
 
 .userrating {
     width: 50%;
@@ -82,25 +84,18 @@ header > h3 {
     /* bottom: -100%; */
     top: 0;
     right: -50%;
-    position: absolute;
-    background: rgba(10, 10, 10, 70%);
-    backdrop-filter: blur(5px);
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: white;
-    transition: 1s;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    /* z-index: 5; */
-    justify-content: space-around;
+
 }
 
 
-.rating > h2, .userrating > h2 {
+.rating > h2 {
     font-size: 3rem;
     text-shadow: 1px 1px 3px red;
+}
+
+.userrating > h2 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 3px blue;
 }
 
 
@@ -109,18 +104,7 @@ header > h3 {
     height: 75%;
     bottom: -100%;
     /* bottom: 0; */
-    position: absolute;
-    background: rgba(10, 10, 10, 70%);
-    backdrop-filter: blur(5px);
-    border-radius: 10px;
-    box-sizing: border-box;
-    color: white;
-    transition: 1s;
-    padding: 10px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    
 }
 
 .card:hover .userrating {
