@@ -1,34 +1,34 @@
 {
     "movies": {
-        "bullet train": {
-            "CoreReviews": [
+        "bullet-train": {
+            "coreReviews": [
                 {
-                    "Name": "Matt",
-                    "Rating": "",
-                    "Why": ""
+                    "name": "Matt",
+                    "rating": "",
+                    "why": ""
                 },
                 {
-                    "Name": "Nick",
-                    "Rating": "",
-                    "Why": ""
+                    "name": "Nick",
+                    "rating": "",
+                    "why": ""
                 },
                 {
-                    "Name": "Brad",
-                    "Rating": "",
-                    "Why": ""
+                    "name": "Brad",
+                    "rating": "",
+                    "why": ""
                 }
             ],
-            "description": "",
+            "description": "Five assassins aboard a swiftly-moving bullet train find out that their missions have something in common. Unlucky assassin Ladybug (Brad Pitt) is determined to do his job peacefully after one too many gigs has gone off the rails.",
             "img": "imgaes/bullettrain.jpg",
             "videos": [""],
             "cast": [""],
             "crew": [""],
-            "Studio": "",
-            "userReviews": [
+            "studio": "",
+            "user-reviews": [
                 {
-                    "Name": "",
-                    "Rating": "",
-                    "Why": ""
+                    "name": "",
+                    "rating": "",
+                    "why": ""
                 }
             ]
         }

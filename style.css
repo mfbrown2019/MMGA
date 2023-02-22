@@ -51,12 +51,15 @@ header > h3 {
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    
 }
 
-.cardBody {
-    width: 100%;
-    height: 75%;
-    bottom: -100%;
+.rating {
+    width: 50%;
+    height: 25%;
+    /* bottom: -100%; */
+    top: 0;
+    left: -50%;
     position: absolute;
     background: rgba(10, 10, 10, 70%);
     backdrop-filter: blur(5px);
@@ -65,23 +68,88 @@ header > h3 {
     color: white;
     transition: 1s;
     padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 5; */
+    justify-content: space-around;
+}
 
+
+.userrating {
+    width: 50%;
+    height: 25%;
+    /* bottom: -100%; */
+    top: 0;
+    right: -50%;
+    position: absolute;
+    background: rgba(10, 10, 10, 70%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    transition: 1s;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* z-index: 5; */
+    justify-content: space-around;
+}
+
+
+.rating > h2, .userrating > h2 {
+    font-size: 3rem;
+    text-shadow: 1px 1px 3px red;
+}
+
+
+.cardBody {
+    width: 100%;
+    height: 75%;
+    bottom: -100%;
+    /* bottom: 0; */
+    position: absolute;
+    background: rgba(10, 10, 10, 70%);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    box-sizing: border-box;
+    color: white;
+    transition: 1s;
+    padding: 10px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+}
+
+.card:hover .userrating {
+    right: 0;
+}
+
+.card:hover .rating {
+    left: 0;
 }
 
 .card:hover .cardBody {
     bottom: 0;
 }
 
+.moreinfocenter {
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+}
+
 .moreinfo {
+
     margin: 0;
     padding: .5rem;
     background-color: lightcoral;
     border-radius: 10px;
     width: fit-content;
     text-decoration: none;
+    
 }
 
 a {
