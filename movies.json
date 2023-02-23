@@ -7,7 +7,7 @@
                 "why": ""
             },
             "nick": {
-                "rating": -1,
+                "rating": 8.6,
                 "why": ""
             },
             "brad": {
@@ -15,7 +15,7 @@
                 "why": ""
             },
             "sherm": {
-                "rating": -1,
+                "rating": 7.8,
                 "why": ""
             }
         },
@@ -42,19 +42,19 @@
         "title": "Revenge of the Sith",
         "coreReviews": {
             "matt" : {
-                "rating": -1,
+                "rating": 8.1,
                 "why": "I HAVE NO IDEA"
             },
             "nick": {
-                "rating": -1,
+                "rating": 8.7,
                 "why": "Does"
             },
             "brad": {
-                "rating": -1,
+                "rating": 9.0,
                 "why": "Clone Wars rage across the galaxy. A sinister Sith Lord seizes control of the Republic and corrupts Anakin Skywalker to be his dark apprentice, Darth Vader. Now, in an epic lightsaber duel, Jedi Obi-Wan Kenobi must confront his fallen friend.Clone Wars rage across the galaxy. A sinister Sith Lord seizes control of the Republic and corrupts Anakin Skywalker to be his dark apprentice, Darth Vader. Now, in an epic lightsaber duel, Jedi Obi-Wan Kenobi must confront his fallen friend."
             },
             "sherm": {
-                "rating": -1,
+                "rating": 9.0,
                 "why": "Work"
             }
         },
@@ -100,21 +100,21 @@
                 "why": ""
             },
             "nick": {
-                "rating": -1,
+                "rating": 7.6,
                 "why": ""
             },
             "brad": {
-                "rating": -1,
+                "rating": 6.9,
                 "why": ""
             },
             "sherm": {
-                "rating": -1,
+                "rating": 8.1,
                 "why": ""
             }
         },
         "description": "Young farm boy Luke Skywalker is thrust into a galaxy of adventure when he intercepts a distress call from the captive Princess Leia. The event launches him on a daring mission to rescue her from the clutches of Darth Vader and the evil Empire.",
         "img": "images/anewhope.jpg",
-        "videos": ["vZ734NWnAHA"],
+        "videos": ["yYNSSNJ0z_U"],
         "cast": ["Mark Hamill", "Harrison Ford", "Carrie Fisher", "Peter Cushing", "Alec Guinness"],
         "page": "pages/anewhope.html",
         "crew": [""],
@@ -123,6 +123,45 @@
         "rated": "PG",
         "release-date": "1977",
         "genre": "Science Fiction, Action-Adventure",
+        "userReviews": [
+            {
+                "name": "",
+                "rating": -1,
+                "why": ""
+            }
+        ]
+    },
+    "avengersendgame" : {
+        "title": "Avengers: Endgame",
+        "coreReviews": {
+            "matt" : {
+                "rating": 6.6,
+                "why": ""
+            },
+            "nick": {
+                "rating": 7.1,
+                "why": ""
+            },
+            "brad": {
+                "rating": 8.0,
+                "why": ""
+            },
+            "sherm": {
+                "rating": 9.3,
+                "why": ""
+            }
+        },
+        "description": "The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films, 'Avengers: Endgame.'",
+        "img": "images/avengersendgame.jpg",
+        "videos": ["ePpJDKfRAyM"],
+        "cast": ["Robert Downey Jr.", "Chris Evans", "Mark Ruffalo", "Chris Hemsworth", "Scarlett Johansson", "Jeremy Renner"],
+        "page": "pages/avengersendgame.html",
+        "crew": [""],
+        "studio": "",
+        "duration": "3h 5m",
+        "rated": "PG-13",
+        "release-date": "2019",
+        "genre": "Science Fiction, Fantasy, Super Hero, Action-Adventure",
         "userReviews": [
             {
                 "name": "",
